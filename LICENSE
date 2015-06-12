@@ -1,5 +1,7 @@
-Some portions:
-- (https://github.com/aioue/ansible-profile)
+https://github.com/aioue/ansible-profile
+
+Original works:
+- (https://github.com/jlafon/ansible-profile)
 - (https://github.com/junaid18183/ansible_home/blob/master/ansible_plugins/callback_plugins/timestamp.py.old)
 
 The MIT License (MIT)

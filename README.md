@@ -1,5 +1,9 @@
 # ansible-plugin-profile
-Ansible plugin for timing tasks. Patches welcome.
+Ansible plugin for timing tasks.
+
+Mashup of 2 excellent original works:
+- (https://github.com/jlafon/ansible-profile)
+- (https://github.com/junaid18183/ansible_home/blob/master/ansible_plugins/callback_plugins/timestamp.py.old)
 
 ## Usage
 

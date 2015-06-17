@@ -1,3 +1,10 @@
+# (C) 2015, Tom Paine, <github@aioue.net>
+# (C) 2014, Jharrod LaFon, @JharrodLaFon
+# (C) 2012-2013, Michael DeHaan, <michael.dehaan@gmail.com>
+
+# Provides per-task timing, ongoing playbook elapsed time and
+# ordered list of top 20 longest running tasks at end
+
 import time
 
 from ansible.callbacks import display
@@ -40,9 +47,6 @@ def tasktime():
 
 
 class CallbackModule(object):
-    """
-    A plugin for timing tasks
-    """
 
     def __init__(self):
         self.stats = {}
@@ -66,10 +70,6 @@ class CallbackModule(object):
         tasktime()
         display(filled("", fchar="="))
 
-        """
-        Prints the timings
-        """
-        # Record the timing of the very last task
         timestamp(self)
 
         # Sort the tasks by their running time

@@ -1,5 +1,5 @@
 # ansible-plugin-profile
-Ansible plugin for timing tasks.
+Ansible plugin for timing tasks. PRs gratefully recieved.
 
 Mashup of 2 excellent original works:
 - (https://github.com/jlafon/ansible-profile)

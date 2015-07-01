@@ -39,7 +39,7 @@ def timestamp(self):
 
 def tasktime():
     global tn
-    time_current = time.strftime('%A %d %B %Y  %H:%M:%S %z')
+    time_current = time.strftime('%Y-%m-%dT%H:%M:%S %z')
     time_elapsed = secondsToStr(time.time() - tn)
     time_total_elapsed = secondsToStr(time.time() - t0)
     display(filled('%s (%s)%s%s' % (time_current, time_elapsed, ' ' * 7, time_total_elapsed)))

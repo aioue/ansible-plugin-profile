@@ -1,5 +1,7 @@
+### Note: this plugin has now been merged into the Ansible devel branch and will be available as standard in Ansible version 2. https://github.com/ansible/ansible/pull/11625
+
 # ansible-plugin-profile
-Ansible plugin for timing tasks. PRs gratefully recieved.
+Ansible plugin for timing tasks.
 
 Mashup of 2 excellent original works:
 - (https://github.com/jlafon/ansible-profile)

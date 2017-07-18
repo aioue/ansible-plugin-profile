@@ -1,4 +1,10 @@
-### Note: this plugin has now been merged into the Ansible devel branch and will be available as standard in Ansible version 2. https://github.com/ansible/ansible/pull/11625
+### Note: this plugin has now been merged into Ansible and is available as standard in Ansible version 2+
+
+### To enable the inbuilt version, add `profile_tasks` to the `callback_whitelist` option in ansible.cfg.
+
+For more information, see https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/profile_tasks.rst
+
+
 
 # ansible-plugin-profile
 Ansible plugin for timing tasks.

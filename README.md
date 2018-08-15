@@ -1,33 +1,11 @@
 ### Note: this plugin has now been merged into Ansible and is available as standard in Ansible version 2+
 
-### To enable the inbuilt version, add `profile_tasks` to the `callback_whitelist` option in ansible.cfg.
+**To enable the inbuilt version, add `profile_tasks` to the `callback_whitelist` option in ansible.cfg.**
 
-For more information, see https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/profile_tasks.rst
+For up-to-date information, see https://docs.ansible.com/ansible/latest/plugins/callback/profile_tasks.html
 
-
-
-# ansible-plugin-profile
-Ansible plugin for timing tasks.
-
-Mashup of 2 excellent original works:
-- (https://github.com/jlafon/ansible-profile)
-- (https://github.com/junaid18183/ansible_home/blob/master/ansible_plugins/callback_plugins/timestamp.py.old)
-
-## Usage
-
-Make a directory called `callback_plugins` next to your playbook and put `profile_tasks.py` inside of it.
-
-```shell
-    mkdir callback_plugins
-    cd callback_plugins
-    wget https://raw.githubusercontent.com/aioue/ansible-plugin-profile/master/callback_plugins/profile_tasks.py
-```
-
-Now, run your playbook as normal.
 
 ## Features
-
-### Tasks
 
 Ongoing timing of each task as it happens.
 

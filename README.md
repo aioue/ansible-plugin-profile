@@ -2,7 +2,7 @@
 
 **To enable the inbuilt version, add `ansible.posix.profile_tasks` to the `callbacks_enabled` option in your ansible.cfg.**
 
-For up-to-date information, [see https://docs.ansible.com/ansible/latest/plugins/callback/profile_tasks.html](https://docs.ansible.com/ansible/latest/collections/ansible/posix/profile_tasks_callback.html)
+For up-to-date information, see [https://docs.ansible.com/ansible/latest/plugins/callback/profile_tasks.html](https://docs.ansible.com/ansible/latest/collections/ansible/posix/profile_tasks_callback.html)
 
 
 

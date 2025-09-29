@@ -1,8 +1,8 @@
-### Note: this plugin has now been merged into Ansible and is available as standard in Ansible version 2+
+## Note: this plugin has now been merged into Ansible and is available as standard in Ansible version 2+
 
 **To enable the inbuilt version, add `profile_tasks` to the `callback_whitelist` option in ansible.cfg.**
 
-For up-to-date information, see https://docs.ansible.com/ansible/latest/plugins/callback/profile_tasks.html
+For up-to-date information, [see https://docs.ansible.com/ansible/latest/plugins/callback/profile_tasks.html](https://docs.ansible.com/ansible/latest/collections/ansible/posix/profile_tasks_callback.html)
 
 
 ## Features
